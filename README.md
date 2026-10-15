@@ -1,6 +1,6 @@
 ## 个人项目
 
-长期独立维护 50+ 个开源项目（GitHub：github.com/DracoUnion），技术栈覆盖 Python、C#/.NET、PyQt6、FastAPI、React、深度学习与逆向工程。
+长期独立维护 50+ 个开源项目（GitHub@DracoUnion），技术栈覆盖 Python、C#/.NET、PyQt6、FastAPI、React、深度学习与逆向工程。
 
 ### 重点项目
 

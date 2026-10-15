@@ -35,7 +35,7 @@ IndexTTS v2 的非官方纯 C# CPU 实现，不依赖 llama.cpp/ONNX/PyTorch。�
 
 **minimind-custom · 轻量语言模型训练实验（Python）🚧**
 
-在开源 MiniMind 超小语言模型（约 64M 参数，3 元成本/2 小时可复现）基础上做的定制与实验，架构设计QSA、Mamba、VQ、RWKV 和 DiffusionLM，覆盖预训练、SFT、LoRA、RLHF、MoE、Tool Use 等完整训练链路，用于深入理解 LLM 训练原理。
+在开源 MiniMind 超小语言模型（约 64M 参数，3 元成本/2 小时可复现）基础上做的定制与实验，架构涉及 Engram、QSA、Mamba、VQ、RWKV 和 DiffusionLM，覆盖预训练、SFT、LoRA、RLHF、MoE、Tool Use 等完整训练链路，用于深入理解 LLM 训练原理。
 
 ### 其余项目
 

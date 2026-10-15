@@ -1,6 +1,6 @@
 ## 个人项目
 
-长期独立维护 50+ 个开源项目（GitHub@DracoUnion），技术栈覆盖 Python、C#/.NET、PyQt6、FastAPI、React、深度学习与逆向工程。
+长期独立维护 50+ 个开源项目（[GitHub@DracoUnion](https://github.com/orgs/DracoUnion/repositories)），技术栈覆盖 Python、C#/.NET、PyQt6、FastAPI、React、深度学习与逆向工程。
 
 ### 重点项目
 
@@ -8,7 +8,7 @@
 
 基于 OpenAI 兼容 API 构建的 30+ 子命令 CLI 工具，覆盖翻译、代码/文档注释、PDF OCR、EPUB 翻译与小说分析、arXiv 论文总结与 paper2code、财务报告生成、小红书/公众号内容创作、网页 PPT、OpenAI 转发服务，以及基于 Win32 的"大模型玩桌面游戏"等场景；并整合 Agent + Orchestrator 内容管线，一键生成公众号文章、小红书轮播图、播客脚本/音频。负责全局参数体系、子命令注册与多模型编排设计。
 
-**OpenDocCN · 超过百亿字的全栈技术文档库（GitCode@OpenDocCN1）🚧**
+**OpenDocCN · 超过百亿字的全栈技术文档库（[GitCode@OpenDocCN1](https://gitcode.com/org/OpenDocCN1/repos)）🚧**
 
 使用 BookerGptTool 工具翻译和整理的全栈技术文档库，分为 200 多个仓库，包含数万本技术书和文档，总计数百亿字。内容涵盖编程语言、前后端、数据科学和人工智能、DevOps、
 Linux、网络安全等。

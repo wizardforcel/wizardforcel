@@ -4,10 +4,6 @@
 
 ### 重点项目
 
-**[BookerGptTool](https://github.com/DracoUnion/BookerGptTool) · AI 命令行工具集（Python）✅️**
-
-基于 OpenAI 兼容 API 构建的 30+ 子命令 CLI 工具，覆盖翻译、代码/文档注释、PDF OCR、EPUB 翻译与小说分析、arXiv 论文总结与 paper2code、财务报告生成、小红书/公众号内容创作、网页 PPT、OpenAI 转发服务，以及基于 Win32 的"大模型玩桌面游戏"等场景；并整合 Agent + Orchestrator 内容管线，一键生成公众号文章、小红书轮播图、播客脚本/音频。负责全局参数体系、子命令注册与多模型编排设计。
-
 **OpenDocCN · 超过百亿字的全栈技术文档库（[GitCode@OpenDocCN1](https://gitcode.com/org/OpenDocCN1/repos)）🚧**
 
 使用 BookerGptTool 工具翻译和整理的全栈技术文档库，分为 200 多个仓库，包含数万本技术书和文档，总计数百亿字。内容涵盖编程语言、前后端、数据科学和人工智能、DevOps、
@@ -40,24 +36,37 @@ IndexTTS v2 的非官方纯 C# CPU 实现，不依赖 llama.cpp/ONNX/PyTorch。�
 ### 其余项目
 
 **Booker 系列内容工具**（Python CLI，pip 可安装）
++   [**BookerAutoTool✅️**](http://github.com/DracoUnion/BookerAutoTool)：大模型驱动的桌面/安卓/网页自动化工具
 
-- [**BookerComicTrans🚧**](https://github.com/DracoUnion/BookerComicTrans)：PyQt6 漫画 OCR 翻译桌面应用，多引擎 OCR/翻译、文本区域编辑、inpaint 回贴、批量导出 PNG/PDF/CBZ
++   [**BookerMediaTool✅️**](http://github.com/DracoUnion/BookerMediaTool)：媒体内容生成工具，涵盖小红书、公众号、即可、小宇宙文案和封面生成，以及社媒展示面生成
 
-- [**BookerYoloTool🚧**](https://github.com/DracoUnion/BookerYoloTool)：PyQt6 + ultralytics 的 YOLO 训练/推理桌面工具（重写原 MFC 工具）
++   [**BookerNovelTool🚧**](http://github.com/DracoUnion/BookerNovelTool)：小说全自动化生成流水线，带有计算语言学门控检查，全方位纠正AI味
 
-- [**BookerAutoVideo✅️**](https://github.com/DracoUnion/BookerAutoVideo)：文本转视频（TTS 配音 + TTI 配图 + ffmpeg 合成）、音视频转文字（SenseVoice ASR）
++   [**BookerPaperTool✅️**](http://github.com/DracoUnion/BookerPaperTool)：科研全自动化流水线，涵盖文献→假设→实验→写作→投稿全流程，另外带有论文到教科书生成工具，全面解决前沿知识沉淀难题
 
-- [**BookerBV2Tool✅️**](https://github.com/DracoUnion/BookerBV2Tool)：Bert-VITS2 声音克隆数据流水线（切分/转写/BERT 特征/训练全流程）
++   [**BookerCodeTool✅️**](http://github.com/DracoUnion/BookerCodeTool)：全流程自动化逆向工程智能体（REA 复刻），同时带有代码转源码解析书籍功能，全面解决代码难以理解的难题
 
-- [**BookerMarkdownTool✅️**](https://github.com/DracoUnion/BookerMarkdownTool)：网页抓取转 Markdown 知识库、SUMMARY 生成、中英对照翻译、EPUB 打包
++   [**BookerFinReportTool🚧**](http://github.com/DracoUnion/BookerFinReportTool)：财务报告转行业趋势，基本面量化选股神器
 
-- [**BookerDownloadTool✅️**](https://github.com/DracoUnion/BookerDownloadTool)：多源内容下载（GitHub 书、轻小说、知乎、Discuz、语雀、飞书、公众号、arXiv 等）
++   [**BookerAutoVideo✅️**](http://github.com/DracoUnion/BookerAutoVideo)：音视频自动处理工具，营销号视频全自动生成，以及基于关键帧提取的视频笔记全自动转写
 
-- [**BookerPubTool✅️**](https://github.com/DracoUnion/BookerPubTool)：电子书一键发布 Docker Hub/PyPI/npm/Libgen + 多平台内容分发
++   [**BookerBV2Tool✅️**](http://github.com/DracoUnion/BookerBV2Tool)：Bert-VITS2 声音克隆训练辅助工具，完整「视频 → 训练数据 → 模型 → 合成」流水线
 
-- [**BookerEpubTool✅️**](https://github.com/DracoUnion/BookerEpubTool)：EPUB 图片压缩、章节/图片导出、段落格式化
++   [**BookerComicTrans🚧**](http://github.com/DracoUnion/BookerComicTrans)：PyQt6 漫画 OCR 翻译桌面应用，多引擎 OCR/翻译、文本区域编辑、inpaint 回贴、批量导出 PNG/PDF/CBZ
 
-- **[BookerPdfTool✅️](https://github.com/DracoUnion/BookerPdfTool) / [BookerProxyTool✅️](https://github.com/DracoUnion/BookerProxyTool)（代理池扫描转发）/ [BookerFinReportTool🚧](https://github.com/DracoUnion/BookerFinReportTool)（财务报告）**
++   [**BookerMarkdownTool✅️**](http://github.com/DracoUnion/BookerMarkdownTool)：Markdown 知识库维护加工工具，覆盖完整知识库流水线，包含网页抓取、目录生成、排版、翻译、自动洗稿、LLMWiki 维护，SKILL 提取，知识图谱提取等功能
+
++   [**BookerEpubTool✅️**](http://github.com/DracoUnion/BookerEpubTool)：知识库 EPUB 前置处理工具，包含 EPUB 翻译、图片压缩、章节/图片导出等功能
+
++   [**BookerPdfTool✅️**](http://github.com/DracoUnion/BookerPdfTool)：知识库 PDF 前置处理工具，包含 OCR、图片压缩、S-Spline 缩放增强、全自动二值化去噪等功能
+
+
++   [**BookerDownloadTool✅️**](http://github.com/DracoUnion/BookerDownloadTool)：面向中文互联网的批量下载工具，站点覆盖：GitHub 电子书、wenku8 轻小说、百度文库、知乎、Discuz 论坛、知识星球、Medium、arXiv、语雀、飞书、小红书、Twitter、Pixabay、Anna's Archive、Wayback Machine 等 20+ 来源
+
++   [**BookerProxyTool✅️**](http://github.com/DracoUnion/BookerProxyTool)：代理池命令行工具，代理抓取、扫描、验证、转发，爬虫工程师必备
+
+
++   [**BookerYoloTool🚧**](http://github.com/DracoUnion/BookerYoloTool)：PyQt6 + ultralytics 的 YOLO 训练/推理桌面工具
 
 **模型推理与训练**
 

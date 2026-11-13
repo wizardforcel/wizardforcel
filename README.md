@@ -88,5 +88,5 @@ IndexTTS v2 的非官方纯 C# CPU 实现，不依赖 llama.cpp/ONNX/PyTorch。�
 
 - [**pyjbig2enc✅️**](https://github.com/DracoUnion/pyjbig2enc)：jbig2enc 的 Python 重写（Numba 加速，二值图像压缩编码）
 
-- **[imgyaso✅️](https://github.com/DracoUnion/imgyaso)（仿色/二值化/颜色缩减）/ [pycleaner✅️](https://github.com/DracoUnion/pycleaner)（CCleaner 清理引擎逆向重构）/ [pySerUI🚧](https://github.com/DracoUnion/pySerUI)（Windows DirectUI 框架）/ [pyturndown✅️](https://github.com/DracoUnion/pyturndown)（HTML→Markdown）/ [epub-crawler✅️](https://github.com/DracoUnion/epub-crawler)**
+- [**imgyaso✅️**](https://github.com/DracoUnion/imgyaso)：图像压缩工具，支持仿色/二值化/颜色缩减，实现了扫描全能王的彩色图像锐化和黑白图像二值化
 
